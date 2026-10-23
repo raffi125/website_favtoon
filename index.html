@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Favtoon APK - Download Aplikasi Baca Komik</title>
-  <meta name="description" content="Download aplikasi Favtoon v2.0.1 APK (4.1 MB) untuk membaca komik Manga, Manhwa, dan Manhua Bahasa Indonesia terlengkap, cepat, dan ringan.">
+  <meta name="description" content="Download aplikasi Favtoon v2.0.2 APK untuk membaca komik Manga, Manhwa, dan Manhua Bahasa Indonesia terlengkap, cepat, dan ringan.">
   <meta name="keywords" content="favtoon, favtoon apk, download favtoon, baca komik apk, manhwa indonesia apk, manga reader android">
   <meta name="author" content="Raffi Fauzan">
   <meta name="theme-color" content="#FFD600">
@@ -54,29 +54,27 @@
     <div class="update-box">
       <div class="update-header">
         <span class="update-dot"></span>
-        <span class="update-version">Update v2.0.1</span>
+        <span class="update-version" id="updateVersion">Update v2.0.2</span>
         <span class="update-badge">Terbaru</span>
       </div>
-      <ul class="changelog-list">
-        <li><span>⚡</span> Beranda 3–4x lebih cepat (pemuatan paralel)</li>
-        <li><span>🎮</span> Reader 120 FPS dengan zoom 2.4x tanpa lag</li>
-        <li><span>💾</span> Fitur Cadangkan & Pulihkan data (Backup JSON)</li>
-        <li><span>🖼️</span> Hemat konsumsi RAM hingga 50%</li>
-        <li><span>☕</span> Dukungan donasi Saweria & masukan anonim</li>
+      <ul class="changelog-list" id="changelogList">
+        <li><span>🛠️</span> Perbaikan koneksi API ke sumber terbaru</li>
+        <li><span>⚡</span> Perbaikan stabilitas & performa</li>
+        <li><span>📶</span> Peningkatan kompatibilitas jaringan</li>
       </ul>
     </div>
 
     <!-- Main Download CTA Button -->
     <div class="download-actions">
-      <a href="assets/favtoon-v2.0.1.apk" download="favtoon.apk" class="btn-download" id="downloadBtn" onclick="handleDownload(event)">
+      <a href="assets/favtoon-v2.0.2.apk" download="favtoon.apk" class="btn-download" id="downloadBtn" onclick="handleDownload(event)">
         <i class="fa-solid fa-download"></i>
-        <span>Download (v2.0.1)</span>
+        <span id="downloadLabel">Download (v2.0.2)</span>
       </a>
       
       <div class="app-specs">
         <span><i class="fa-brands fa-android text-yellow"></i> Android 7.0+</span>
         <span class="dot-separator">•</span>
-        <span><i class="fa-solid fa-feather text-yellow"></i> 4.1 MB</span>
+        <span><i class="fa-solid fa-feather text-yellow"></i> <span id="appSize">4.1 MB</span></span>
         <span class="dot-separator">•</span>
         <span><i class="fa-solid fa-shield-halved text-yellow"></i> Bebas Malware</span>
       </div>
@@ -135,7 +133,7 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p>Favtoon &copy; 2026 &bull; Dibuat oleh <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="dev-name">Raffi Fauzan</a> (Universitas Padjadjaran)</p>
+    <p>Favtoon &copy; 2026 &bull; Dibuat oleh <a href="https://github.com/raffi125" target="_blank" rel="noopener noreferrer" class="dev-name">Raffi Fauzan</a> (Universitas Padjadjaran)</p>
     <p class="footer-sub">Seluruh konten komik hak cipta milik penerbit dan kreator masing-masing.</p>
   </footer>
 
