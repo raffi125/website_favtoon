@@ -5,11 +5,12 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 SRC="${1:-../favtoon_mobile}"
-APK="$SRC/app/build/outputs/apk/debug/app-debug.apk"
+APK="$SRC/app/build/outputs/apk/release/app-release.apk"
+[ -f "$APK" ] || APK="$SRC/app/build/outputs/apk/debug/app-debug.apk"
 SRC_VERSION="$SRC/version.json"
 
 if [ ! -f "$APK" ]; then
-  echo "APK not found: $APK (run ./gradlew :app:assembleDebug first)" >&2
+  echo "APK not found (run ./gradlew :app:assembleRelease first)" >&2
   exit 1
 fi
 
