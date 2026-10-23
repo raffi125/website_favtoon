@@ -1,8 +1,8 @@
 {
-  "versionCode": 3,
-  "versionName": "2.0.1",
+  "versionCode": 4,
+  "versionName": "2.0.2",
   "title": "Pembaruan Favtoon Tersedia! 🚀",
-  "changelog": "• Beranda 3–4x lebih cepat dengan pemuatan paralel\n• Reader 120 FPS dengan zoom 2.4x tanpa lag\n• Fitur Cadangkan & Pulihkan data (Backup JSON)\n• Dukungan donasi Saweria & masukan anonim Discord\n• Hemat konsumsi RAM hingga 50%",
-  "downloadUrl": "https://saweria.co/raffi05",
+  "changelog": "• Perbaikan koneksi API ke sumber terbaru\n• Perbaikan stabilitas & performa\n• Peningkatan kompatibilitas jaringan",
+  "downloadUrl": "assets/favtoon-v2.0.2.apk",
   "forceUpdate": false
 }
